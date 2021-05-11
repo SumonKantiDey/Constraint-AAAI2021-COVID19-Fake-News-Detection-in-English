@@ -1,0 +1,852 @@
+2020-11-12 16:43:57,244 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 16:43:57,256 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 16:44:05,595 - __main__ - INFO - STARTING TRAINING - train file train_batch 16 valid_batch 32 learning_rate 3e-5
+2020-11-12 16:44:05,596 - __main__ - INFO - Epoch 1/4
+2020-11-12 16:44:05,596 - __main__ - INFO - ----------
+2020-11-12 16:44:25,330 - engine - INFO - bi=50, Train F1=0.667,Train loss=0.6501548290252686, time=19.73214340209961
+2020-11-12 16:44:45,450 - engine - INFO - bi=100, Train F1=0.947,Train loss=0.16627107560634613, time=39.85249042510986
+2020-11-12 16:45:05,998 - engine - INFO - bi=150, Train F1=0.769,Train loss=0.5310706496238708, time=60.40068221092224
+2020-11-12 16:45:26,062 - engine - INFO - bi=200, Train F1=0.6,Train loss=0.6644434928894043, time=80.46465849876404
+2020-11-12 16:45:45,875 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.052956607192754745, time=100.27746295928955
+2020-11-12 16:46:05,771 - engine - INFO - bi=300, Train F1=0.933,Train loss=0.29166069626808167, time=120.17310547828674
+2020-11-12 16:46:25,868 - engine - INFO - bi=350, Train F1=0.923,Train loss=0.24278241395950317, time=140.26994633674622
+2020-11-12 16:46:30,149 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.007616034708917141, time=144.55173707008362
+2020-11-12 16:46:30,367 - __main__ - INFO - Train loss 0.2777782563185731 accuracy 0.8966770508826585
+2020-11-12 16:46:35,147 - __main__ - INFO - Val loss 0.2271043493279389 accuracy 0.9439252336448598
+2020-11-12 16:46:51,648 - test_eval - INFO - Accuracy:: 0.944392523364486
+2020-11-12 16:46:51,655 - test_eval - INFO - Mcc Score:: 0.8885351853565713
+2020-11-12 16:46:51,659 - test_eval - INFO - Precision:: 0.9444128421603784
+2020-11-12 16:46:51,663 - test_eval - INFO - Recall:: 0.944392523364486
+2020-11-12 16:46:51,667 - test_eval - INFO - F_score:: 0.944377657460964
+2020-11-12 16:46:51,675 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.95      0.95      1120
+         1.0       0.95      0.94      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.94      0.94      0.94      2140
+
+2020-11-12 16:46:51,686 - __main__ - INFO - Epoch 2/4
+2020-11-12 16:46:51,686 - __main__ - INFO - ----------
+2020-11-12 16:47:12,069 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.025378169491887093, time=20.377867460250854
+2020-11-12 16:47:31,991 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.001352498889900744, time=40.30044627189636
+2020-11-12 16:47:51,884 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.002851070836186409, time=60.19308280944824
+2020-11-12 16:48:11,862 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.004398426506668329, time=80.17123341560364
+2020-11-12 16:48:31,821 - engine - INFO - bi=250, Train F1=0.96,Train loss=0.11778023093938828, time=100.1299557685852
+2020-11-12 16:48:51,775 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.008513969369232655, time=120.08406925201416
+2020-11-12 16:49:11,689 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.0030889129266142845, time=139.9984748363495
+2020-11-12 16:49:15,932 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.0015340582467615604, time=144.24067735671997
+2020-11-12 16:49:16,130 - __main__ - INFO - Train loss 0.14111267210666775 accuracy 0.9622706818968502
+2020-11-12 16:49:20,865 - __main__ - INFO - Val loss 0.24326966235059358 accuracy 0.956386292834891
+2020-11-12 16:49:37,324 - test_eval - INFO - Accuracy:: 0.9481308411214954
+2020-11-12 16:49:37,329 - test_eval - INFO - Mcc Score:: 0.896830431476299
+2020-11-12 16:49:37,333 - test_eval - INFO - Precision:: 0.9490414984523089
+2020-11-12 16:49:37,336 - test_eval - INFO - Recall:: 0.9481308411214954
+2020-11-12 16:49:37,340 - test_eval - INFO - F_score:: 0.9480431821326912
+2020-11-12 16:49:37,349 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.93      0.97      0.95      1120
+         1.0       0.97      0.92      0.94      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 16:49:37,360 - __main__ - INFO - Epoch 3/4
+2020-11-12 16:49:37,360 - __main__ - INFO - ----------
+2020-11-12 16:49:57,696 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0005533387884497643, time=20.331314086914062
+2020-11-12 16:50:17,607 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.003036235924810171, time=40.24200797080994
+2020-11-12 16:50:37,523 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.003969270270317793, time=60.15863490104675
+2020-11-12 16:50:57,372 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.000870574964210391, time=80.00693345069885
+2020-11-12 16:51:17,226 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0005853757029399276, time=99.86183762550354
+2020-11-12 16:51:37,113 - engine - INFO - bi=300, Train F1=0.909,Train loss=0.15342581272125244, time=119.74882507324219
+2020-11-12 16:51:56,958 - engine - INFO - bi=350, Train F1=0.933,Train loss=0.535506010055542, time=139.59303045272827
+2020-11-12 16:52:01,189 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.0008563194423913956, time=143.824280500412
+2020-11-12 16:52:01,398 - __main__ - INFO - Train loss 0.0652559233886622 accuracy 0.9852890273451022
+2020-11-12 16:52:06,138 - __main__ - INFO - Val loss 0.37315149912666085 accuracy 0.9610591900311526
+2020-11-12 16:52:22,886 - test_eval - INFO - Accuracy:: 0.9532710280373832
+2020-11-12 16:52:22,893 - test_eval - INFO - Mcc Score:: 0.9072823621524171
+2020-11-12 16:52:22,897 - test_eval - INFO - Precision:: 0.9543252445623124
+2020-11-12 16:52:22,902 - test_eval - INFO - Recall:: 0.9532710280373832
+2020-11-12 16:52:22,906 - test_eval - INFO - F_score:: 0.9531857321582868
+2020-11-12 16:52:22,915 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.93      0.98      0.96      1120
+         1.0       0.98      0.92      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.96      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 16:52:22,926 - __main__ - INFO - Epoch 4/4
+2020-11-12 16:52:22,926 - __main__ - INFO - ----------
+2020-11-12 16:52:43,171 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0004355511337053031, time=20.241388082504272
+2020-11-12 16:53:03,014 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.00044724653707817197, time=40.08387207984924
+2020-11-12 16:53:22,924 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00035654089879244566, time=59.99406170845032
+2020-11-12 16:53:42,764 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.00034308439353480935, time=79.8343620300293
+2020-11-12 16:54:02,640 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0002874742494896054, time=99.7101948261261
+2020-11-12 16:54:22,495 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.000968068081419915, time=119.56547904014587
+2020-11-12 16:54:42,312 - engine - INFO - bi=350, Train F1=0.952,Train loss=0.21634678542613983, time=139.38213086128235
+2020-11-12 16:54:46,542 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.0001503115927334875, time=143.61261987686157
+2020-11-12 16:54:46,748 - __main__ - INFO - Train loss 0.02075616591350331 accuracy 0.995846313603323
+2020-11-12 16:54:51,474 - __main__ - INFO - Val loss 0.4432659334561322 accuracy 0.954828660436137
+2020-11-12 16:54:51,937 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 16:54:57,930 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 16:54:57,940 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 16:55:06,330 - __main__ - INFO - STARTING TRAINING - train file train_batch 16 valid_batch 32 learning_rate 2e-5
+2020-11-12 16:55:06,330 - __main__ - INFO - Epoch 1/4
+2020-11-12 16:55:06,330 - __main__ - INFO - ----------
+2020-11-12 16:55:26,674 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.11017099767923355, time=20.340101718902588
+2020-11-12 16:55:47,254 - engine - INFO - bi=100, Train F1=0.947,Train loss=0.2553902566432953, time=40.92071866989136
+2020-11-12 16:56:07,435 - engine - INFO - bi=150, Train F1=0.714,Train loss=0.5245546102523804, time=61.10135054588318
+2020-11-12 16:56:27,265 - engine - INFO - bi=200, Train F1=0.8,Train loss=0.4661576747894287, time=80.93147325515747
+2020-11-12 16:56:47,109 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.04409422352910042, time=100.77566456794739
+2020-11-12 16:57:07,141 - engine - INFO - bi=300, Train F1=0.857,Train loss=0.36622750759124756, time=120.80789637565613
+2020-11-12 16:57:27,307 - engine - INFO - bi=350, Train F1=0.923,Train loss=0.40428879857063293, time=140.97346806526184
+2020-11-12 16:57:31,581 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.004866170696914196, time=145.24719166755676
+2020-11-12 16:57:31,783 - __main__ - INFO - Train loss 0.2800924590472338 accuracy 0.893042575285566
+2020-11-12 16:57:36,551 - __main__ - INFO - Val loss 0.24224491257752692 accuracy 0.9501557632398754
+2020-11-12 16:57:53,011 - test_eval - INFO - Accuracy:: 0.9457943925233645
+2020-11-12 16:57:53,016 - test_eval - INFO - Mcc Score:: 0.8913385251011187
+2020-11-12 16:57:53,020 - test_eval - INFO - Precision:: 0.9458003919821033
+2020-11-12 16:57:53,024 - test_eval - INFO - Recall:: 0.9457943925233645
+2020-11-12 16:57:53,029 - test_eval - INFO - F_score:: 0.9457841398304941
+2020-11-12 16:57:53,038 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.95      0.95      1120
+         1.0       0.95      0.94      0.94      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 16:57:53,050 - __main__ - INFO - Epoch 2/4
+2020-11-12 16:57:53,050 - __main__ - INFO - ----------
+2020-11-12 16:58:13,395 - engine - INFO - bi=50, Train F1=0.889,Train loss=0.07708431035280228, time=20.341859579086304
+2020-11-12 16:58:33,448 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.001258764648810029, time=40.39497923851013
+2020-11-12 16:58:53,507 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.028386566787958145, time=60.4536406993866
+2020-11-12 16:59:13,600 - engine - INFO - bi=200, Train F1=0.923,Train loss=0.11472124606370926, time=80.54676175117493
+2020-11-12 16:59:33,646 - engine - INFO - bi=250, Train F1=0.96,Train loss=0.21061761677265167, time=100.59309411048889
+2020-11-12 16:59:53,630 - engine - INFO - bi=300, Train F1=0.875,Train loss=0.4134964942932129, time=120.57645440101624
+2020-11-12 17:00:13,626 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.0073067806661129, time=140.5722939968109
+2020-11-12 17:00:17,872 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.0017255991697311401, time=144.81860852241516
+2020-11-12 17:00:18,082 - __main__ - INFO - Train loss 0.13575782896399316 accuracy 0.9614053305642092
+2020-11-12 17:00:22,821 - __main__ - INFO - Val loss 0.18939920217685757 accuracy 0.9532710280373832
+2020-11-12 17:00:39,368 - test_eval - INFO - Accuracy:: 0.955607476635514
+2020-11-12 17:00:39,374 - test_eval - INFO - Mcc Score:: 0.9111735676305919
+2020-11-12 17:00:39,378 - test_eval - INFO - Precision:: 0.9558087134033634
+2020-11-12 17:00:39,381 - test_eval - INFO - Recall:: 0.955607476635514
+2020-11-12 17:00:39,384 - test_eval - INFO - F_score:: 0.9555770806242488
+2020-11-12 17:00:39,392 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.97      0.96      1120
+         1.0       0.96      0.94      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.95      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:00:39,405 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:00:39,405 - __main__ - INFO - ----------
+2020-11-12 17:00:59,783 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0009852516232058406, time=20.37556505203247
+2020-11-12 17:01:19,758 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0008657210855744779, time=40.34999179840088
+2020-11-12 17:01:39,708 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.0003972775302827358, time=60.30014514923096
+2020-11-12 17:01:59,558 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.000479097303468734, time=80.15074014663696
+2020-11-12 17:02:19,404 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0018134544370695949, time=99.99621486663818
+2020-11-12 17:02:39,236 - engine - INFO - bi=300, Train F1=0.909,Train loss=0.06061135232448578, time=119.82812428474426
+2020-11-12 17:02:59,091 - engine - INFO - bi=350, Train F1=0.875,Train loss=0.524976372718811, time=139.68320512771606
+2020-11-12 17:03:03,313 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.0002182483731303364, time=143.90529870986938
+2020-11-12 17:03:03,518 - __main__ - INFO - Train loss 0.06757933150067441 accuracy 0.9842506057459329
+2020-11-12 17:03:08,248 - __main__ - INFO - Val loss 0.3782563409726468 accuracy 0.954828660436137
+2020-11-12 17:03:24,763 - test_eval - INFO - Accuracy:: 0.9588785046728971
+2020-11-12 17:03:24,770 - test_eval - INFO - Mcc Score:: 0.9182010727563398
+2020-11-12 17:03:24,774 - test_eval - INFO - Precision:: 0.9595808607860448
+2020-11-12 17:03:24,779 - test_eval - INFO - Recall:: 0.9588785046728971
+2020-11-12 17:03:24,783 - test_eval - INFO - F_score:: 0.9588213531995494
+2020-11-12 17:03:24,792 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.98      0.94      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:03:24,806 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:03:24,806 - __main__ - INFO - ----------
+2020-11-12 17:03:45,049 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.00026249163784086704, time=20.23954463005066
+2020-11-12 17:04:04,907 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0003207959816791117, time=40.09788393974304
+2020-11-12 17:04:24,766 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.002219397807493806, time=59.9570677280426
+2020-11-12 17:04:44,621 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.00017496661166660488, time=79.81137752532959
+2020-11-12 17:05:04,468 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.00023783414508216083, time=99.65893697738647
+2020-11-12 17:05:24,352 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.00021746338461525738, time=119.54287075996399
+2020-11-12 17:05:44,253 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.000362773600500077, time=139.44367575645447
+2020-11-12 17:05:48,500 - engine - INFO - bi=361, Train F1=0.0,Train loss=5.626515485346317e-05, time=143.6904056072235
+2020-11-12 17:05:48,711 - __main__ - INFO - Train loss 0.023575229134033718 accuracy 0.9946348217376255
+2020-11-12 17:05:53,488 - __main__ - INFO - Val loss 0.4023300386172542 accuracy 0.956386292834891
+2020-11-12 17:06:10,080 - test_eval - INFO - Accuracy:: 0.9621495327102804
+2020-11-12 17:06:10,087 - test_eval - INFO - Mcc Score:: 0.9243789115902219
+2020-11-12 17:06:10,090 - test_eval - INFO - Precision:: 0.9624426710242439
+2020-11-12 17:06:10,094 - test_eval - INFO - Recall:: 0.9621495327102804
+2020-11-12 17:06:10,097 - test_eval - INFO - F_score:: 0.9621185005230241
+2020-11-12 17:06:10,106 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.98      0.96      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:06:10,586 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:06:16,541 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:06:16,553 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:06:25,622 - __main__ - INFO - STARTING TRAINING - train file train_batch 32 valid_batch 32 learning_rate 3e-5
+2020-11-12 17:06:25,622 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:06:25,622 - __main__ - INFO - ----------
+2020-11-12 17:07:02,656 - engine - INFO - bi=50, Train F1=0.947,Train loss=0.13799643516540527, time=37.03139925003052
+2020-11-12 17:07:38,536 - engine - INFO - bi=100, Train F1=0.762,Train loss=0.45618191361427307, time=72.91121315956116
+2020-11-12 17:08:14,013 - engine - INFO - bi=150, Train F1=0.889,Train loss=0.20600548386573792, time=108.38863682746887
+2020-11-12 17:08:35,484 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.016173427924513817, time=129.85969471931458
+2020-11-12 17:08:35,911 - __main__ - INFO - Train loss 0.25379552960766283 accuracy 0.8935617860851507
+2020-11-12 17:08:40,712 - __main__ - INFO - Val loss 0.2288178407720157 accuracy 0.940809968847352
+2020-11-12 17:08:56,482 - test_eval - INFO - Accuracy:: 0.9476635514018692
+2020-11-12 17:08:56,488 - test_eval - INFO - Mcc Score:: 0.8957068539427927
+2020-11-12 17:08:56,494 - test_eval - INFO - Precision:: 0.9481933851563269
+2020-11-12 17:08:56,497 - test_eval - INFO - Recall:: 0.9476635514018692
+2020-11-12 17:08:56,500 - test_eval - INFO - F_score:: 0.9476892206318935
+2020-11-12 17:08:56,512 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.93      0.95      1120
+         1.0       0.93      0.96      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 17:08:56,522 - __main__ - INFO - Epoch 2/4
+2020-11-12 17:08:56,522 - __main__ - INFO - ----------
+2020-11-12 17:09:32,835 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.004999413155019283, time=36.30943727493286
+2020-11-12 17:10:08,617 - engine - INFO - bi=100, Train F1=0.971,Train loss=0.11654944717884064, time=72.09157204627991
+2020-11-12 17:10:44,421 - engine - INFO - bi=150, Train F1=0.937,Train loss=0.34751206636428833, time=107.8955807685852
+2020-11-12 17:11:05,736 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0030614850111305714, time=129.21042585372925
+2020-11-12 17:11:06,159 - __main__ - INFO - Train loss 0.12234228544673002 accuracy 0.9627898926964348
+2020-11-12 17:11:10,903 - __main__ - INFO - Val loss 0.1898619247644785 accuracy 0.954828660436137
+2020-11-12 17:11:26,531 - test_eval - INFO - Accuracy:: 0.9546728971962617
+2020-11-12 17:11:26,538 - test_eval - INFO - Mcc Score:: 0.9099875982639307
+2020-11-12 17:11:26,543 - test_eval - INFO - Precision:: 0.955613252386015
+2020-11-12 17:11:26,548 - test_eval - INFO - Recall:: 0.9546728971962617
+2020-11-12 17:11:26,553 - test_eval - INFO - F_score:: 0.9545962942961356
+2020-11-12 17:11:26,562 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.98      0.93      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.96      0.95      0.95      2140
+weighted avg       0.96      0.95      0.95      2140
+
+2020-11-12 17:11:26,575 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:11:26,575 - __main__ - INFO - ----------
+2020-11-12 17:12:02,851 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0006032061064615846, time=36.2728955745697
+2020-11-12 17:12:38,495 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0009165872470475733, time=71.91617846488953
+2020-11-12 17:13:14,167 - engine - INFO - bi=150, Train F1=0.96,Train loss=0.026950379833579063, time=107.58861565589905
+2020-11-12 17:13:35,425 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.038222961127758026, time=128.84717965126038
+2020-11-12 17:13:35,847 - __main__ - INFO - Train loss 0.05239395340853139 accuracy 0.9854620976116304
+2020-11-12 17:13:40,603 - __main__ - INFO - Val loss 0.18357045621156604 accuracy 0.956386292834891
+2020-11-12 17:13:56,239 - test_eval - INFO - Accuracy:: 0.9626168224299065
+2020-11-12 17:13:56,246 - test_eval - INFO - Mcc Score:: 0.925225519394367
+2020-11-12 17:13:56,250 - test_eval - INFO - Precision:: 0.962811313222303
+2020-11-12 17:13:56,253 - test_eval - INFO - Recall:: 0.9626168224299065
+2020-11-12 17:13:56,259 - test_eval - INFO - F_score:: 0.9625924475665236
+2020-11-12 17:13:56,268 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.97      0.96      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:13:56,287 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:13:56,287 - __main__ - INFO - ----------
+2020-11-12 17:14:32,479 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0016392238903790712, time=36.187910318374634
+2020-11-12 17:15:08,145 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.00021528937213588506, time=71.85483050346375
+2020-11-12 17:15:43,848 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00011130792699987069, time=107.55793952941895
+2020-11-12 17:16:05,080 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.00017331969866063446, time=128.78927636146545
+2020-11-12 17:16:05,502 - __main__ - INFO - Train loss 0.018198859643928183 accuracy 0.9948078920041538
+2020-11-12 17:16:10,260 - __main__ - INFO - Val loss 0.21382722404017668 accuracy 0.9595015576323987
+2020-11-12 17:16:25,880 - test_eval - INFO - Accuracy:: 0.9640186915887851
+2020-11-12 17:16:25,887 - test_eval - INFO - Mcc Score:: 0.9280920953519437
+2020-11-12 17:16:25,891 - test_eval - INFO - Precision:: 0.9642730394692955
+2020-11-12 17:16:25,895 - test_eval - INFO - Recall:: 0.9640186915887851
+2020-11-12 17:16:25,899 - test_eval - INFO - F_score:: 0.9639916551714304
+2020-11-12 17:16:25,908 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.98      0.97      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:16:26,425 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:16:32,516 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:16:32,528 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:16:40,844 - __main__ - INFO - STARTING TRAINING - train file train_batch 32 valid_batch 32 learning_rate 2e-5
+2020-11-12 17:16:40,845 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:16:40,845 - __main__ - INFO - ----------
+2020-11-12 17:17:17,681 - engine - INFO - bi=50, Train F1=0.947,Train loss=0.17289003729820251, time=36.82964777946472
+2020-11-12 17:17:53,596 - engine - INFO - bi=100, Train F1=0.762,Train loss=0.34824639558792114, time=72.74491286277771
+2020-11-12 17:18:28,995 - engine - INFO - bi=150, Train F1=0.929,Train loss=0.10587123036384583, time=108.14411687850952
+2020-11-12 17:18:50,428 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.05256130173802376, time=129.57695508003235
+2020-11-12 17:18:50,867 - __main__ - INFO - Train loss 0.28400152922705724 accuracy 0.8772931810314989
+2020-11-12 17:18:55,724 - __main__ - INFO - Val loss 0.23731261544993945 accuracy 0.9392523364485981
+2020-11-12 17:19:11,477 - test_eval - INFO - Accuracy:: 0.9373831775700935
+2020-11-12 17:19:11,483 - test_eval - INFO - Mcc Score:: 0.8763027372671329
+2020-11-12 17:19:11,487 - test_eval - INFO - Precision:: 0.939021442042271
+2020-11-12 17:19:11,490 - test_eval - INFO - Recall:: 0.9373831775700935
+2020-11-12 17:19:11,494 - test_eval - INFO - F_score:: 0.9374154012937159
+2020-11-12 17:19:11,503 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.97      0.91      0.94      1120
+         1.0       0.91      0.96      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.94      0.94      0.94      2140
+
+2020-11-12 17:19:11,514 - __main__ - INFO - Epoch 2/4
+2020-11-12 17:19:11,515 - __main__ - INFO - ----------
+2020-11-12 17:19:47,782 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.004558434244245291, time=36.263747453689575
+2020-11-12 17:20:23,468 - engine - INFO - bi=100, Train F1=0.971,Train loss=0.09042814373970032, time=71.9504656791687
+2020-11-12 17:20:59,160 - engine - INFO - bi=150, Train F1=0.909,Train loss=0.33859169483184814, time=107.64251804351807
+2020-11-12 17:21:20,424 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.004412906244397163, time=128.9056043624878
+2020-11-12 17:21:20,844 - __main__ - INFO - Train loss 0.12004146065552673 accuracy 0.9595015576323989
+2020-11-12 17:21:25,601 - __main__ - INFO - Val loss 0.19745778527465604 accuracy 0.954828660436137
+2020-11-12 17:21:41,216 - test_eval - INFO - Accuracy:: 0.9537383177570093
+2020-11-12 17:21:41,221 - test_eval - INFO - Mcc Score:: 0.9082621824218587
+2020-11-12 17:21:41,225 - test_eval - INFO - Precision:: 0.9548366211723301
+2020-11-12 17:21:41,229 - test_eval - INFO - Recall:: 0.9537383177570093
+2020-11-12 17:21:41,233 - test_eval - INFO - F_score:: 0.9536517467223711
+2020-11-12 17:21:41,242 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.93      0.98      0.96      1120
+         1.0       0.98      0.92      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.96      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 17:21:41,253 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:21:41,254 - __main__ - INFO - ----------
+2020-11-12 17:22:17,567 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0008300394401885569, time=36.31089472770691
+2020-11-12 17:22:53,283 - engine - INFO - bi=100, Train F1=0.968,Train loss=0.07462194561958313, time=72.02729225158691
+2020-11-12 17:23:28,919 - engine - INFO - bi=150, Train F1=0.957,Train loss=0.08790472149848938, time=107.66387844085693
+2020-11-12 17:23:50,162 - engine - INFO - bi=180, Train F1=0.941,Train loss=0.2460763156414032, time=128.90626978874207
+2020-11-12 17:23:50,597 - __main__ - INFO - Train loss 0.060132809746135746 accuracy 0.9832121841467637
+2020-11-12 17:23:55,353 - __main__ - INFO - Val loss 0.24710139222276797 accuracy 0.9610591900311526
+2020-11-12 17:24:10,941 - test_eval - INFO - Accuracy:: 0.9593457943925233
+2020-11-12 17:24:10,948 - test_eval - INFO - Mcc Score:: 0.9185696038535961
+2020-11-12 17:24:10,954 - test_eval - INFO - Precision:: 0.9594318991914187
+2020-11-12 17:24:10,956 - test_eval - INFO - Recall:: 0.9593457943925233
+2020-11-12 17:24:10,960 - test_eval - INFO - F_score:: 0.9593280846266182
+2020-11-12 17:24:10,968 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.97      0.96      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:24:10,980 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:24:10,980 - __main__ - INFO - ----------
+2020-11-12 17:24:47,351 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0006994557334110141, time=36.36478853225708
+2020-11-12 17:25:23,050 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0005155698745511472, time=72.06323981285095
+2020-11-12 17:25:58,791 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00017925602151080966, time=107.80440974235535
+2020-11-12 17:26:20,054 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0003147530951537192, time=129.0678584575653
+2020-11-12 17:26:20,485 - __main__ - INFO - Train loss 0.03125025116629803 accuracy 0.9908272758740049
+2020-11-12 17:26:25,263 - __main__ - INFO - Val loss 0.3366429346136838 accuracy 0.9610591900311526
+2020-11-12 17:26:25,769 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:26:31,784 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:26:31,795 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:26:40,403 - __main__ - INFO - STARTING TRAINING - Last Four hidden Layer train_batch 16 valid_batch 32 learning_rate 3e-5
+2020-11-12 17:26:40,404 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:26:40,404 - __main__ - INFO - ----------
+2020-11-12 17:27:00,949 - engine - INFO - bi=50, Train F1=0.923,Train loss=0.245516836643219, time=20.542986631393433
+2020-11-12 17:27:21,603 - engine - INFO - bi=100, Train F1=0.727,Train loss=0.23456618189811707, time=41.197195053100586
+2020-11-12 17:27:41,823 - engine - INFO - bi=150, Train F1=0.714,Train loss=0.3560347855091095, time=61.416884422302246
+2020-11-12 17:28:01,758 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.10701549053192139, time=81.3516309261322
+2020-11-12 17:28:21,671 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.07727023959159851, time=101.26441764831543
+2020-11-12 17:28:41,763 - engine - INFO - bi=300, Train F1=0.909,Train loss=0.348202645778656, time=121.35703253746033
+2020-11-12 17:29:01,943 - engine - INFO - bi=350, Train F1=0.933,Train loss=0.3639880418777466, time=141.53641486167908
+2020-11-12 17:29:06,224 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.5194287300109863, time=145.8178789615631
+2020-11-12 17:29:06,474 - __main__ - INFO - Train loss 0.2914060670052763 accuracy 0.8835237106265145
+2020-11-12 17:29:11,254 - __main__ - INFO - Val loss 0.25895049373087076 accuracy 0.9470404984423676
+2020-11-12 17:29:27,764 - test_eval - INFO - Accuracy:: 0.947196261682243
+2020-11-12 17:29:27,770 - test_eval - INFO - Mcc Score:: 0.8941480574557835
+2020-11-12 17:29:27,775 - test_eval - INFO - Precision:: 0.9471944917616849
+2020-11-12 17:29:27,779 - test_eval - INFO - Recall:: 0.947196261682243
+2020-11-12 17:29:27,784 - test_eval - INFO - F_score:: 0.9471901937151816
+2020-11-12 17:29:27,794 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.95      0.95      1120
+         1.0       0.95      0.94      0.94      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 17:29:27,806 - __main__ - INFO - Epoch 2/4
+2020-11-12 17:29:27,806 - __main__ - INFO - ----------
+2020-11-12 17:29:48,231 - engine - INFO - bi=50, Train F1=0.923,Train loss=0.24001406133174896, time=20.421098947525024
+2020-11-12 17:30:08,311 - engine - INFO - bi=100, Train F1=0.909,Train loss=0.40969398617744446, time=40.50134611129761
+2020-11-12 17:30:28,341 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.0038382969796657562, time=60.53108191490173
+2020-11-12 17:30:48,316 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.0018567602382972836, time=80.50660991668701
+2020-11-12 17:31:08,255 - engine - INFO - bi=250, Train F1=0.857,Train loss=0.2792309522628784, time=100.4449200630188
+2020-11-12 17:31:28,218 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.018631838262081146, time=120.40792632102966
+2020-11-12 17:31:48,202 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.001556176459416747, time=140.3927285671234
+2020-11-12 17:31:52,446 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.0010249734623357654, time=144.63630652427673
+2020-11-12 17:31:52,660 - __main__ - INFO - Train loss 0.13690509520778535 accuracy 0.9655590169608862
+2020-11-12 17:31:57,415 - __main__ - INFO - Val loss 0.284305176032441 accuracy 0.956386292834891
+2020-11-12 17:32:13,924 - test_eval - INFO - Accuracy:: 0.9518691588785047
+2020-11-12 17:32:13,930 - test_eval - INFO - Mcc Score:: 0.9048463069791
+2020-11-12 17:32:13,935 - test_eval - INFO - Precision:: 0.9533193943566041
+2020-11-12 17:32:13,940 - test_eval - INFO - Recall:: 0.9518691588785047
+2020-11-12 17:32:13,945 - test_eval - INFO - F_score:: 0.9517606035869908
+2020-11-12 17:32:13,955 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.93      0.98      0.96      1120
+         1.0       0.98      0.92      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 17:32:13,967 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:32:13,967 - __main__ - INFO - ----------
+2020-11-12 17:32:34,348 - engine - INFO - bi=50, Train F1=0.941,Train loss=0.12814874947071075, time=20.37661647796631
+2020-11-12 17:32:54,290 - engine - INFO - bi=100, Train F1=0.947,Train loss=0.2485152631998062, time=40.318751096725464
+2020-11-12 17:33:14,260 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.0003796907258220017, time=60.28840398788452
+2020-11-12 17:33:34,161 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.0007134080515243113, time=80.18921971321106
+2020-11-12 17:33:54,055 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0007202352862805128, time=100.08380031585693
+2020-11-12 17:34:13,980 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.0005495433579199016, time=120.00848031044006
+2020-11-12 17:34:33,924 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.0016145081026479602, time=139.95210218429565
+2020-11-12 17:34:38,154 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.0006455169059336185, time=144.18271732330322
+2020-11-12 17:34:38,370 - __main__ - INFO - Train loss 0.06217868402225235 accuracy 0.9866735894773279
+2020-11-12 17:34:43,131 - __main__ - INFO - Val loss 0.2192563649538594 accuracy 0.9626168224299065
+2020-11-12 17:34:59,620 - test_eval - INFO - Accuracy:: 0.9626168224299065
+2020-11-12 17:34:59,627 - test_eval - INFO - Mcc Score:: 0.9250778320587306
+2020-11-12 17:34:59,632 - test_eval - INFO - Precision:: 0.9626409791752479
+2020-11-12 17:34:59,635 - test_eval - INFO - Recall:: 0.9626168224299065
+2020-11-12 17:34:59,640 - test_eval - INFO - F_score:: 0.9626078193657955
+2020-11-12 17:34:59,650 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.96      1120
+         1.0       0.97      0.96      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:34:59,661 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:34:59,662 - __main__ - INFO - ----------
+2020-11-12 17:35:19,994 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.00035625434247776866, time=20.328853130340576
+2020-11-12 17:35:39,940 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0001841567864175886, time=40.275224924087524
+2020-11-12 17:35:59,834 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00016675509687047452, time=60.168378591537476
+2020-11-12 17:36:19,764 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.000137834605993703, time=80.09861969947815
+2020-11-12 17:36:39,650 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.000368713604984805, time=99.98517417907715
+2020-11-12 17:36:59,536 - engine - INFO - bi=300, Train F1=0.941,Train loss=0.25172966718673706, time=119.87133550643921
+2020-11-12 17:37:19,414 - engine - INFO - bi=350, Train F1=0.889,Train loss=0.49777767062187195, time=139.74853444099426
+2020-11-12 17:37:23,646 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.00012003452866338193, time=143.98098254203796
+2020-11-12 17:37:23,860 - __main__ - INFO - Train loss 0.025875086063406244 accuracy 0.9946348217376255
+2020-11-12 17:37:28,644 - __main__ - INFO - Val loss 0.2662776619496678 accuracy 0.9657320872274143
+2020-11-12 17:37:45,177 - test_eval - INFO - Accuracy:: 0.9630841121495327
+2020-11-12 17:37:45,184 - test_eval - INFO - Mcc Score:: 0.9260691325041758
+2020-11-12 17:37:45,188 - test_eval - INFO - Precision:: 0.9631739506408644
+2020-11-12 17:37:45,191 - test_eval - INFO - Recall:: 0.9630841121495327
+2020-11-12 17:37:45,195 - test_eval - INFO - F_score:: 0.9630680308678489
+2020-11-12 17:37:45,205 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.96      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:37:45,709 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:37:51,923 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:37:51,934 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:38:00,714 - __main__ - INFO - STARTING TRAINING - Last Four hidden Layer train_batch 16 valid_batch 32 learning_rate 2e-5
+2020-11-12 17:38:00,714 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:38:00,714 - __main__ - INFO - ----------
+2020-11-12 17:38:21,213 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.06674370169639587, time=20.495590686798096
+2020-11-12 17:38:41,874 - engine - INFO - bi=100, Train F1=0.923,Train loss=0.1562294363975525, time=41.15631341934204
+2020-11-12 17:39:02,098 - engine - INFO - bi=150, Train F1=0.714,Train loss=0.615643322467804, time=61.38072896003723
+2020-11-12 17:39:21,978 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.045055098831653595, time=81.26029944419861
+2020-11-12 17:39:41,906 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0467279814183712, time=101.188809633255
+2020-11-12 17:40:02,049 - engine - INFO - bi=300, Train F1=0.909,Train loss=0.15563151240348816, time=121.33167338371277
+2020-11-12 17:40:22,287 - engine - INFO - bi=350, Train F1=0.933,Train loss=0.35426339507102966, time=141.5697467327118
+2020-11-12 17:40:26,582 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.7651143074035645, time=145.8648989200592
+2020-11-12 17:40:26,834 - __main__ - INFO - Train loss 0.2813415658904319 accuracy 0.8852544132917965
+2020-11-12 17:40:31,609 - __main__ - INFO - Val loss 0.20596864673175982 accuracy 0.9376947040498442
+2020-11-12 17:40:48,058 - test_eval - INFO - Accuracy:: 0.9434579439252336
+2020-11-12 17:40:48,064 - test_eval - INFO - Mcc Score:: 0.8886289279883183
+2020-11-12 17:40:48,069 - test_eval - INFO - Precision:: 0.945255285087858
+2020-11-12 17:40:48,073 - test_eval - INFO - Recall:: 0.9434579439252336
+2020-11-12 17:40:48,079 - test_eval - INFO - F_score:: 0.9434860397403579
+2020-11-12 17:40:48,088 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.97      0.92      0.94      1120
+         1.0       0.91      0.97      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.95      0.94      0.94      2140
+
+2020-11-12 17:40:48,100 - __main__ - INFO - Epoch 2/4
+2020-11-12 17:40:48,100 - __main__ - INFO - ----------
+2020-11-12 17:41:08,647 - engine - INFO - bi=50, Train F1=0.923,Train loss=0.3209647238254547, time=20.542787790298462
+2020-11-12 17:41:28,754 - engine - INFO - bi=100, Train F1=0.909,Train loss=0.3456152379512787, time=40.64989233016968
+2020-11-12 17:41:48,857 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.03205227106809616, time=60.75322699546814
+2020-11-12 17:42:08,974 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.010260471142828465, time=80.8700475692749
+2020-11-12 17:42:29,062 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.04778450354933739, time=100.95822262763977
+2020-11-12 17:42:49,132 - engine - INFO - bi=300, Train F1=0.923,Train loss=0.31995633244514465, time=121.02855849266052
+2020-11-12 17:43:09,152 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.003763477085158229, time=141.04836177825928
+2020-11-12 17:43:13,410 - engine - INFO - bi=361, Train F1=0.0,Train loss=0.00023290775425266474, time=145.3063530921936
+2020-11-12 17:43:13,628 - __main__ - INFO - Train loss 0.13369856743946465 accuracy 0.962097611630322
+2020-11-12 17:43:18,409 - __main__ - INFO - Val loss 0.2635594944197995 accuracy 0.9470404984423676
+2020-11-12 17:43:34,864 - test_eval - INFO - Accuracy:: 0.9565420560747664
+2020-11-12 17:43:34,870 - test_eval - INFO - Mcc Score:: 0.9130110469000694
+2020-11-12 17:43:34,875 - test_eval - INFO - Precision:: 0.9566342295891076
+2020-11-12 17:43:34,879 - test_eval - INFO - Recall:: 0.9565420560747664
+2020-11-12 17:43:34,884 - test_eval - INFO - F_score:: 0.9565528064250111
+2020-11-12 17:43:34,894 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.96      1120
+         1.0       0.95      0.96      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:43:34,906 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:43:34,906 - __main__ - INFO - ----------
+2020-11-12 17:43:55,274 - engine - INFO - bi=50, Train F1=0.941,Train loss=0.0653485432267189, time=20.36556577682495
+2020-11-12 17:44:15,286 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.011689448729157448, time=40.37748312950134
+2020-11-12 17:44:35,267 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00031820195727050304, time=60.35861253738403
+2020-11-12 17:44:55,185 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.00012415938545018435, time=80.27705931663513
+2020-11-12 17:45:15,087 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.0004573306068778038, time=100.17888712882996
+2020-11-12 17:45:35,118 - engine - INFO - bi=300, Train F1=1.0,Train loss=0.0009528233204036951, time=120.21001100540161
+2020-11-12 17:45:55,136 - engine - INFO - bi=350, Train F1=1.0,Train loss=0.0012348031159490347, time=140.22746920585632
+2020-11-12 17:45:59,389 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.00014757017197553068, time=144.48050808906555
+2020-11-12 17:45:59,613 - __main__ - INFO - Train loss 0.07078306885855128 accuracy 0.9849428868120458
+2020-11-12 17:46:04,391 - __main__ - INFO - Val loss 0.3739081818119822 accuracy 0.9610591900311526
+2020-11-12 17:46:20,941 - test_eval - INFO - Accuracy:: 0.9560747663551402
+2020-11-12 17:46:20,947 - test_eval - INFO - Mcc Score:: 0.9127700666926497
+2020-11-12 17:46:20,953 - test_eval - INFO - Precision:: 0.9569826647001712
+2020-11-12 17:46:20,957 - test_eval - INFO - Recall:: 0.9560747663551402
+2020-11-12 17:46:20,962 - test_eval - INFO - F_score:: 0.9560024749302568
+2020-11-12 17:46:20,971 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.98      0.93      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.95      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:46:20,983 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:46:20,983 - __main__ - INFO - ----------
+2020-11-12 17:46:41,432 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.000629519228823483, time=20.44622826576233
+2020-11-12 17:47:01,368 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0002362333907512948, time=40.381752729415894
+2020-11-12 17:47:21,291 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00028342276345938444, time=60.305376052856445
+2020-11-12 17:47:41,228 - engine - INFO - bi=200, Train F1=1.0,Train loss=0.0002642725594341755, time=80.24178647994995
+2020-11-12 17:48:01,174 - engine - INFO - bi=250, Train F1=1.0,Train loss=0.00021728622959926724, time=100.18789196014404
+2020-11-12 17:48:21,056 - engine - INFO - bi=300, Train F1=0.941,Train loss=0.34594887495040894, time=120.0698173046112
+2020-11-12 17:48:40,978 - engine - INFO - bi=350, Train F1=0.889,Train loss=0.525606632232666, time=139.99174332618713
+2020-11-12 17:48:45,222 - engine - INFO - bi=361, Train F1=1.0,Train loss=0.00038305376074276865, time=144.23604822158813
+2020-11-12 17:48:45,445 - __main__ - INFO - Train loss 0.03518827397819931 accuracy 0.9922118380062306
+2020-11-12 17:48:50,221 - __main__ - INFO - Val loss 0.3203028904515252 accuracy 0.9641744548286604
+2020-11-12 17:49:06,704 - test_eval - INFO - Accuracy:: 0.9626168224299065
+2020-11-12 17:49:06,711 - test_eval - INFO - Mcc Score:: 0.925103720928061
+2020-11-12 17:49:06,716 - test_eval - INFO - Precision:: 0.9626733655984939
+2020-11-12 17:49:06,721 - test_eval - INFO - Recall:: 0.9626168224299065
+2020-11-12 17:49:06,726 - test_eval - INFO - F_score:: 0.962603757239362
+2020-11-12 17:49:06,736 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.96      1120
+         1.0       0.97      0.95      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:49:07,235 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:49:13,340 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:49:13,352 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:49:22,306 - __main__ - INFO - STARTING TRAINING - Last Four hidden Layer train_batch 32 valid_batch 32 learning_rate 3e-5
+2020-11-12 17:49:22,306 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:49:22,306 - __main__ - INFO - ----------
+2020-11-12 17:49:59,353 - engine - INFO - bi=50, Train F1=0.968,Train loss=0.1736328899860382, time=37.04386019706726
+2020-11-12 17:50:35,281 - engine - INFO - bi=100, Train F1=0.937,Train loss=0.1581437587738037, time=72.9716055393219
+2020-11-12 17:51:10,793 - engine - INFO - bi=150, Train F1=0.966,Train loss=0.11159922182559967, time=108.48353457450867
+2020-11-12 17:51:32,261 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.056647948920726776, time=129.95161890983582
+2020-11-12 17:51:32,694 - __main__ - INFO - Train loss 0.295630090159894 accuracy 0.8721010730356525
+2020-11-12 17:51:37,510 - __main__ - INFO - Val loss 0.2174529376484099 accuracy 0.9361370716510903
+2020-11-12 17:51:53,360 - test_eval - INFO - Accuracy:: 0.9406542056074766
+2020-11-12 17:51:53,369 - test_eval - INFO - Mcc Score:: 0.8815423308943217
+2020-11-12 17:51:53,375 - test_eval - INFO - Precision:: 0.9412589805808094
+2020-11-12 17:51:53,380 - test_eval - INFO - Recall:: 0.9406542056074766
+2020-11-12 17:51:53,385 - test_eval - INFO - F_score:: 0.9405741649837465
+2020-11-12 17:51:53,394 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.93      0.96      0.94      1120
+         1.0       0.96      0.92      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.94      0.94      0.94      2140
+
+2020-11-12 17:51:53,404 - __main__ - INFO - Epoch 2/4
+2020-11-12 17:51:53,404 - __main__ - INFO - ----------
+2020-11-12 17:52:29,822 - engine - INFO - bi=50, Train F1=0.903,Train loss=0.22204247117042542, time=36.4113130569458
+2020-11-12 17:53:05,554 - engine - INFO - bi=100, Train F1=0.96,Train loss=0.1138288676738739, time=72.14402365684509
+2020-11-12 17:53:41,285 - engine - INFO - bi=150, Train F1=0.903,Train loss=0.3041285574436188, time=107.87413454055786
+2020-11-12 17:54:02,607 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.00860991794615984, time=129.19702816009521
+2020-11-12 17:54:03,052 - __main__ - INFO - Train loss 0.12995076657900617 accuracy 0.9579439252336449
+2020-11-12 17:54:07,815 - __main__ - INFO - Val loss 0.2468952903124903 accuracy 0.9470404984423676
+2020-11-12 17:54:23,407 - test_eval - INFO - Accuracy:: 0.9476635514018692
+2020-11-12 17:54:23,414 - test_eval - INFO - Mcc Score:: 0.8959815088103507
+2020-11-12 17:54:23,418 - test_eval - INFO - Precision:: 0.9484493277460172
+2020-11-12 17:54:23,422 - test_eval - INFO - Recall:: 0.9476635514018692
+2020-11-12 17:54:23,427 - test_eval - INFO - F_score:: 0.9476914108891826
+2020-11-12 17:54:23,437 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.97      0.93      0.95      1120
+         1.0       0.93      0.97      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 17:54:23,449 - __main__ - INFO - Epoch 3/4
+2020-11-12 17:54:23,449 - __main__ - INFO - ----------
+2020-11-12 17:54:59,817 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.026073725894093513, time=36.365567684173584
+2020-11-12 17:55:35,575 - engine - INFO - bi=100, Train F1=0.979,Train loss=0.03278690576553345, time=72.12398767471313
+2020-11-12 17:56:11,321 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.0008981956052593887, time=107.86977648735046
+2020-11-12 17:56:32,593 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0011701567564159632, time=129.14123845100403
+2020-11-12 17:56:33,037 - __main__ - INFO - Train loss 0.06907196384414037 accuracy 0.9806161301488405
+2020-11-12 17:56:37,806 - __main__ - INFO - Val loss 0.29770925031265333 accuracy 0.9641744548286604
+2020-11-12 17:56:53,570 - test_eval - INFO - Accuracy:: 0.9551401869158879
+2020-11-12 17:56:53,577 - test_eval - INFO - Mcc Score:: 0.9108195696529707
+2020-11-12 17:56:53,582 - test_eval - INFO - Precision:: 0.9559690275347681
+2020-11-12 17:56:53,587 - test_eval - INFO - Recall:: 0.9551401869158879
+2020-11-12 17:56:53,592 - test_eval - INFO - F_score:: 0.9550702647200788
+2020-11-12 17:56:53,602 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.98      0.93      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.95      0.95      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 17:56:53,614 - __main__ - INFO - Epoch 4/4
+2020-11-12 17:56:53,614 - __main__ - INFO - ----------
+2020-11-12 17:57:29,949 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0009919039439409971, time=36.329954385757446
+2020-11-12 17:58:05,660 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.00033062323927879333, time=72.04129409790039
+2020-11-12 17:58:41,346 - engine - INFO - bi=150, Train F1=0.97,Train loss=0.19312098622322083, time=107.72709393501282
+2020-11-12 17:59:02,618 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0009743391419760883, time=128.99963974952698
+2020-11-12 17:59:03,061 - __main__ - INFO - Train loss 0.032407442001993796 accuracy 0.9929041190723434
+2020-11-12 17:59:07,820 - __main__ - INFO - Val loss 0.31802906437605133 accuracy 0.9532710280373832
+2020-11-12 17:59:08,347 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 17:59:14,643 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 17:59:14,654 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 17:59:23,503 - __main__ - INFO - STARTING TRAINING - Last Four hidden Layer train_batch 32 valid_batch 32 learning_rate 2e-5
+2020-11-12 17:59:23,504 - __main__ - INFO - Epoch 1/4
+2020-11-12 17:59:23,504 - __main__ - INFO - ----------
+2020-11-12 18:00:00,480 - engine - INFO - bi=50, Train F1=0.909,Train loss=0.16531991958618164, time=36.974039793014526
+2020-11-12 18:00:36,454 - engine - INFO - bi=100, Train F1=0.97,Train loss=0.12298091500997543, time=72.9486129283905
+2020-11-12 18:01:11,954 - engine - INFO - bi=150, Train F1=0.966,Train loss=0.09525110572576523, time=108.44770932197571
+2020-11-12 18:01:33,441 - engine - INFO - bi=180, Train F1=0.941,Train loss=0.08020079135894775, time=129.93536186218262
+2020-11-12 18:01:33,887 - __main__ - INFO - Train loss 0.2973308239327692 accuracy 0.8715818622360679
+2020-11-12 18:01:38,704 - __main__ - INFO - Val loss 0.1800977610761211 accuracy 0.9330218068535825
+2020-11-12 18:01:54,455 - test_eval - INFO - Accuracy:: 0.9406542056074766
+2020-11-12 18:01:54,462 - test_eval - INFO - Mcc Score:: 0.8827997687314837
+2020-11-12 18:01:54,467 - test_eval - INFO - Precision:: 0.9422446252185653
+2020-11-12 18:01:54,470 - test_eval - INFO - Recall:: 0.9406542056074766
+2020-11-12 18:01:54,475 - test_eval - INFO - F_score:: 0.940685044665706
+2020-11-12 18:01:54,485 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.97      0.92      0.94      1120
+         1.0       0.91      0.97      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.94      0.94      0.94      2140
+
+2020-11-12 18:01:54,497 - __main__ - INFO - Epoch 2/4
+2020-11-12 18:01:54,497 - __main__ - INFO - ----------
+2020-11-12 18:02:30,867 - engine - INFO - bi=50, Train F1=0.968,Train loss=0.09147577732801437, time=36.36487936973572
+2020-11-12 18:03:06,602 - engine - INFO - bi=100, Train F1=0.957,Train loss=0.03534615784883499, time=72.10019898414612
+2020-11-12 18:03:42,357 - engine - INFO - bi=150, Train F1=0.937,Train loss=0.10218565165996552, time=107.85547614097595
+2020-11-12 18:04:03,684 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.04310405254364014, time=129.18260741233826
+2020-11-12 18:04:04,129 - __main__ - INFO - Train loss 0.12257236454157333 accuracy 0.9572516441675321
+2020-11-12 18:04:08,895 - __main__ - INFO - Val loss 0.27266944148799493 accuracy 0.9485981308411214
+2020-11-12 18:04:24,541 - test_eval - INFO - Accuracy:: 0.9509345794392523
+2020-11-12 18:04:24,548 - test_eval - INFO - Mcc Score:: 0.9026466903647227
+2020-11-12 18:04:24,553 - test_eval - INFO - Precision:: 0.9518285981920648
+2020-11-12 18:04:24,558 - test_eval - INFO - Recall:: 0.9509345794392523
+2020-11-12 18:04:24,561 - test_eval - INFO - F_score:: 0.9509611138926128
+2020-11-12 18:04:24,572 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.97      0.93      0.95      1120
+         1.0       0.93      0.97      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.95      0.95      0.95      2140
+weighted avg       0.95      0.95      0.95      2140
+
+2020-11-12 18:04:24,583 - __main__ - INFO - Epoch 3/4
+2020-11-12 18:04:24,583 - __main__ - INFO - ----------
+2020-11-12 18:05:01,011 - engine - INFO - bi=50, Train F1=0.971,Train loss=0.07662253826856613, time=36.422271490097046
+2020-11-12 18:05:36,879 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0014997317921370268, time=72.29056358337402
+2020-11-12 18:06:12,750 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.004191366024315357, time=108.16074299812317
+2020-11-12 18:06:34,066 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.004156602080911398, time=129.47670698165894
+2020-11-12 18:06:34,511 - __main__ - INFO - Train loss 0.07093047736954196 accuracy 0.9792315680166148
+2020-11-12 18:06:39,293 - __main__ - INFO - Val loss 0.33125986819088993 accuracy 0.9626168224299065
+2020-11-12 18:06:55,038 - test_eval - INFO - Accuracy:: 0.9551401869158879
+2020-11-12 18:06:55,044 - test_eval - INFO - Mcc Score:: 0.9101072473911911
+2020-11-12 18:06:55,047 - test_eval - INFO - Precision:: 0.9551908578527679
+2020-11-12 18:06:55,052 - test_eval - INFO - Recall:: 0.9551401869158879
+2020-11-12 18:06:55,057 - test_eval - INFO - F_score:: 0.9551245086872342
+2020-11-12 18:06:55,067 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.95      0.96      0.96      1120
+         1.0       0.96      0.95      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.95      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 18:06:55,079 - __main__ - INFO - Epoch 4/4
+2020-11-12 18:06:55,080 - __main__ - INFO - ----------
+2020-11-12 18:07:31,510 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0023982024285942316, time=36.42402720451355
+2020-11-12 18:08:07,282 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0035014168825000525, time=72.1968162059784
+2020-11-12 18:08:43,007 - engine - INFO - bi=150, Train F1=0.97,Train loss=0.18099792301654816, time=107.92167639732361
+2020-11-12 18:09:04,256 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0007251330534927547, time=129.17060542106628
+2020-11-12 18:09:04,697 - __main__ - INFO - Train loss 0.029753112191805816 accuracy 0.9922118380062306
+2020-11-12 18:09:09,465 - __main__ - INFO - Val loss 0.3832236575724978 accuracy 0.956386292834891
+2020-11-12 18:09:09,992 - __main__ - INFO - ##################################### Task End ############################################
+2020-11-12 18:17:13,512 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-11-12 18:17:13,522 - __main__ - INFO - train len - 5778 valid len - 642
+2020-11-12 18:17:22,108 - __main__ - INFO - STARTING TRAINING - train file train_batch 32 valid_batch 32 learning_rate 3e-5
+2020-11-12 18:17:22,108 - __main__ - INFO - Epoch 1/6
+2020-11-12 18:17:22,108 - __main__ - INFO - ----------
+2020-11-12 18:17:55,700 - engine - INFO - bi=50, Train F1=0.947,Train loss=0.13571028411388397, time=33.58848428726196
+2020-11-12 18:18:30,394 - engine - INFO - bi=100, Train F1=0.762,Train loss=0.4461980164051056, time=68.28352904319763
+2020-11-12 18:19:06,905 - engine - INFO - bi=150, Train F1=0.929,Train loss=0.20142725110054016, time=104.79426145553589
+2020-11-12 18:19:28,197 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.028329279273748398, time=126.08647775650024
+2020-11-12 18:19:28,634 - __main__ - INFO - Train loss 0.25117676831699537 accuracy 0.8958116995500174
+2020-11-12 18:19:33,367 - __main__ - INFO - Val loss 0.2157599941073429 accuracy 0.9501557632398754
+2020-11-12 18:19:48,728 - test_eval - INFO - Accuracy:: 0.9429906542056075
+2020-11-12 18:19:48,735 - test_eval - INFO - Mcc Score:: 0.886781526083568
+2020-11-12 18:19:48,739 - test_eval - INFO - Precision:: 0.9439239275500041
+2020-11-12 18:19:48,744 - test_eval - INFO - Recall:: 0.9429906542056075
+2020-11-12 18:19:48,748 - test_eval - INFO - F_score:: 0.9430215960873177
+2020-11-12 18:19:48,756 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.96      0.93      0.94      1120
+         1.0       0.92      0.96      0.94      1020
+
+    accuracy                           0.94      2140
+   macro avg       0.94      0.94      0.94      2140
+weighted avg       0.94      0.94      0.94      2140
+
+2020-11-12 18:19:48,768 - __main__ - INFO - Epoch 2/6
+2020-11-12 18:19:48,768 - __main__ - INFO - ----------
+2020-11-12 18:20:25,219 - engine - INFO - bi=50, Train F1=0.966,Train loss=0.10774071514606476, time=36.44792461395264
+2020-11-12 18:21:01,129 - engine - INFO - bi=100, Train F1=0.919,Train loss=0.2708263397216797, time=72.35842084884644
+2020-11-12 18:21:36,785 - engine - INFO - bi=150, Train F1=0.937,Train loss=0.35147881507873535, time=108.01366591453552
+2020-11-12 18:21:58,167 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.0010400839382782578, time=129.39634108543396
+2020-11-12 18:21:58,602 - __main__ - INFO - Train loss 0.12375900484537912 accuracy 0.9591554170993424
+2020-11-12 18:22:03,414 - __main__ - INFO - Val loss 0.2505903802202305 accuracy 0.956386292834891
+2020-11-12 18:22:19,072 - test_eval - INFO - Accuracy:: 0.9546728971962617
+2020-11-12 18:22:19,079 - test_eval - INFO - Mcc Score:: 0.9094517791795397
+2020-11-12 18:22:19,085 - test_eval - INFO - Precision:: 0.9550422689030558
+2020-11-12 18:22:19,088 - test_eval - INFO - Recall:: 0.9546728971962617
+2020-11-12 18:22:19,091 - test_eval - INFO - F_score:: 0.9546292881354524
+2020-11-12 18:22:19,100 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.97      0.96      1120
+         1.0       0.97      0.94      0.95      1020
+
+    accuracy                           0.95      2140
+   macro avg       0.96      0.95      0.95      2140
+weighted avg       0.96      0.95      0.95      2140
+
+2020-11-12 18:22:19,112 - __main__ - INFO - Epoch 3/6
+2020-11-12 18:22:19,112 - __main__ - INFO - ----------
+2020-11-12 18:22:55,421 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.00039141427259892225, time=36.30449819564819
+2020-11-12 18:23:31,188 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0013845026260241866, time=72.07152152061462
+2020-11-12 18:24:06,955 - engine - INFO - bi=150, Train F1=0.957,Train loss=0.07004912942647934, time=107.83827328681946
+2020-11-12 18:24:28,263 - engine - INFO - bi=180, Train F1=0.941,Train loss=0.0863587036728859, time=129.1462574005127
+2020-11-12 18:24:28,704 - __main__ - INFO - Train loss 0.06403519744167648 accuracy 0.9811353409484251
+2020-11-12 18:24:33,499 - __main__ - INFO - Val loss 0.3241253744566902 accuracy 0.9579439252336448
+2020-11-12 18:24:49,143 - test_eval - INFO - Accuracy:: 0.955607476635514
+2020-11-12 18:24:49,150 - test_eval - INFO - Mcc Score:: 0.9115953093182151
+2020-11-12 18:24:49,155 - test_eval - INFO - Precision:: 0.9562648791804318
+2020-11-12 18:24:49,160 - test_eval - INFO - Recall:: 0.955607476635514
+2020-11-12 18:24:49,165 - test_eval - INFO - F_score:: 0.9555476037279995
+2020-11-12 18:24:49,176 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.97      0.93      0.95      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.95      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 18:24:49,189 - __main__ - INFO - Epoch 4/6
+2020-11-12 18:24:49,189 - __main__ - INFO - ----------
+2020-11-12 18:25:25,459 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.0006492651300504804, time=36.26618528366089
+2020-11-12 18:26:01,093 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.00023288163356482983, time=71.90023732185364
+2020-11-12 18:26:36,756 - engine - INFO - bi=150, Train F1=1.0,Train loss=5.77202663407661e-05, time=107.56325674057007
+2020-11-12 18:26:57,957 - engine - INFO - bi=180, Train F1=1.0,Train loss=0.00013967769336886704, time=128.76443099975586
+2020-11-12 18:26:58,404 - __main__ - INFO - Train loss 0.027838495569658183 accuracy 0.993423329871928
+2020-11-12 18:27:03,182 - __main__ - INFO - Val loss 0.3620805509736307 accuracy 0.9610591900311526
+2020-11-12 18:27:18,831 - test_eval - INFO - Accuracy:: 0.9593457943925233
+2020-11-12 18:27:18,839 - test_eval - INFO - Mcc Score:: 0.9191085539241884
+2020-11-12 18:27:18,844 - test_eval - INFO - Precision:: 0.9600163538303375
+2020-11-12 18:27:18,849 - test_eval - INFO - Recall:: 0.9593457943925233
+2020-11-12 18:27:18,853 - test_eval - INFO - F_score:: 0.9592909634140626
+2020-11-12 18:27:18,864 - test_eval - INFO - classification_report::               precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1120
+         1.0       0.98      0.94      0.96      1020
+
+    accuracy                           0.96      2140
+   macro avg       0.96      0.96      0.96      2140
+weighted avg       0.96      0.96      0.96      2140
+
+2020-11-12 18:27:18,875 - __main__ - INFO - Epoch 5/6
+2020-11-12 18:27:18,875 - __main__ - INFO - ----------
+2020-11-12 18:27:55,157 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.00023124633298721164, time=36.27895450592041
+2020-11-12 18:28:30,826 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0002492719504516572, time=71.94784259796143
+2020-11-12 18:29:06,478 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00014225521590560675, time=107.59969997406006
+2020-11-12 18:29:27,693 - engine - INFO - bi=180, Train F1=1.0,Train loss=5.417112697614357e-05, time=128.8146629333496
+2020-11-12 18:29:28,122 - __main__ - INFO - Train loss 0.006726694871778909 accuracy 0.9979231568016615
+2020-11-12 18:29:32,883 - __main__ - INFO - Val loss 0.38719971370812256 accuracy 0.9610591900311526
+2020-11-12 18:29:32,884 - __main__ - INFO - Epoch 6/6
+2020-11-12 18:29:32,884 - __main__ - INFO - ----------
+2020-11-12 18:30:09,144 - engine - INFO - bi=50, Train F1=1.0,Train loss=0.00015019651618786156, time=36.25493144989014
+2020-11-12 18:30:44,722 - engine - INFO - bi=100, Train F1=1.0,Train loss=0.0031061149202287197, time=71.83366227149963
+2020-11-12 18:31:20,346 - engine - INFO - bi=150, Train F1=1.0,Train loss=0.00014408303832169622, time=107.45775771141052
+2020-11-12 18:31:41,568 - engine - INFO - bi=180, Train F1=1.0,Train loss=5.521711864275858e-05, time=128.67921233177185
+2020-11-12 18:31:42,004 - __main__ - INFO - Train loss 0.004089249263666937 accuracy 0.9987885081343026
+2020-11-12 18:31:46,806 - __main__ - INFO - Val loss 0.3575457995157194 accuracy 0.9579439252336448
+2020-11-12 18:31:47,346 - __main__ - INFO - ##################################### Task End ############################################
