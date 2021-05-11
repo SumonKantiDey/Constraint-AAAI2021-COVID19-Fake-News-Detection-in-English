@@ -28,7 +28,7 @@
 
 ## Wordcloud for train and test data
 <p align="center">
- <img src="https://github.com/SumonKantiDey/COVID19-Fake-News-Detection-in-English/blob/semi_cleaning_data/wordcloud.png" >
+ <img src="https://github.com/SumonKantiDey/Constraint-AAAI2021-COVID19-Fake-News-Detection-in-English/blob/main/wordcloud.png" >
 </p>
 
 
@@ -38,7 +38,7 @@
 - See train and validation history visualization from **train_loss_his/acc_curves.png** and **train_loss_his/loss_curves.png**
 
 ## Contribution
-- We have done regular preprocessing to replace emojis with tokens , replace all of  the mentions with Twitter handles, split all of the hashtags into separate words. [[preprocessing]](https://github.com/SumonKantiDey/COVID19-Fake-News-Detection-in-English/blob/submission_ready_branch/robust%20preprocessing.ipynb)
+- We have done regular preprocessing to replace emojis with tokens , replace all of  the mentions with Twitter handles, split all of the hashtags into separate words. [[preprocessing]](https://github.com/SumonKantiDey/Constraint-AAAI2021-COVID19-Fake-News-Detection-in-English/blob/main/robust%20preprocessing.ipynb)
 - Extracted news headlines from URL which was used in user posts and concatenate that with user post if post and headline not syntactically similar. 
 - Used transformers-based variant of Bert and Roberta models alongside different architecture on top of Bert and Roberta models.
 - Utilized Ensemble-based approach based on top three model.
